@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import './App.css';
 import Nav from '../Nav/Nav';
 import NewIdea from '../NewIdea/NewIdea';
 import Ideas from '../Ideas/Ideas';
