@@ -1,9 +1,12 @@
 .appContainer {
   display: grid;
-  grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1.5fr 2fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: .5fr 3fr 1fr;
   grid-template-areas:
-  "Nav NewIdea"
-  "Nav Ideas";
+  "Nav"
+  "NewIdea"
+  "Ideas";
   height: 100vh;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }

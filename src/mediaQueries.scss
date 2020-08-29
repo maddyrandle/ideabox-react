@@ -1,0 +1,12 @@
+$break1: 725px;
+
+@media (min-width: $break1) {
+  .appContainer {
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1.5fr 2fr;
+    grid-template-areas:
+    "Nav NewIdea"
+    "Nav Ideas";
+  }
+
+}
