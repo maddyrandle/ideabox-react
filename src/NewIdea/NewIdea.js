@@ -4,7 +4,9 @@ import './NewIdea.css';
 
 const NewIdea = () => {
   return (
-    <div style={{backgroundColor: 'lightpink'}}>NewIdea</div>
+    <div className='newIdeaContainer'>
+      NewIdea
+    </div>
   );
 }
 

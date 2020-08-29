@@ -4,7 +4,9 @@ import './Nav.css';
 
 const Nav = () => {
   return (
-    <div style={{backgroundColor: 'lightblue'}}>Nav</div>
+    <div className=navContainer>
+      Nav
+    </div>
   );
 }
 

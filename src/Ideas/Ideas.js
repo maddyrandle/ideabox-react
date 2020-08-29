@@ -4,7 +4,9 @@ import './Ideas.css';
 
 const Ideas = () => {
   return (
-    <div style={{backgroundColor: 'yellow'}}>Ideas</div>
+    <div className='ideasContainer'>
+      Ideas
+    </div>
   );
 }
 
