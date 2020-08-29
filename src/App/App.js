@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 import './App.css';
+import Nav from '../Nav/Nav';
+import NewIdea from '../NewIdea/NewIdea';
+import Ideas from '../Ideas/Ideas';
 
 class App extends Component {
   constructor() {
@@ -9,7 +12,12 @@ class App extends Component {
 
   render() {
     return (
-      <div>hi</div>
+      <div className='app-container'>
+        <Nav />
+        <NewIdea />
+        <Ideas />
+
+      </div>
     );
   };
 }
