@@ -1,0 +1,5 @@
+.navContainer {
+  background-color: #1f1f3d;
+  border-right: .1rem solid white;
+  grid-area: Nav;
+}
