@@ -1,5 +1,9 @@
 @import './scss/variables';
 @import './scss/mixins';
+@import './components/App/styles';
+@import './components/Nav/styles';
+@import './components/NewIdea/styles';
+@import './components/Ideas/styles';
 
 body,
 * {
