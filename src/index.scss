@@ -1,4 +1,5 @@
-
+@import './scss/variables';
+@import './scss/mixins';
 
 body,
 * {
@@ -18,3 +19,5 @@ body,
   margin: 0;
   padding: 0;
 }
+
+@import './mediaQueries';
