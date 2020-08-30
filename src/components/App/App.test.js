@@ -4,6 +4,6 @@ import App from './App';
 
 test('renders App', () => {
   const { getByText } = render(<App />);
-  const navComponent = getByText('Nav');
-  expect(navComponent).toBeInTheDocument();
+  const appComponent = getByText('IdeaBox');
+  expect(appComponent).toBeInTheDocument();
 });

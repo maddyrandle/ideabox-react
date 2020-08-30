@@ -4,6 +4,6 @@ import Nav from './Nav';
 
 test('renders Nav', () => {
   const { getByText } = render(<Nav />);
-  const nav = getByText('Nav');
-  expect(nav).toBeInTheDocument();
+  const navText = getByText('IdeaBox');
+  expect(navText).toBeInTheDocument();
 });
